@@ -1,0 +1,69 @@
+cliente faz solicitacao pro servidor
+servidor processa e dar a resposta
+
+protocologo : http ou https (seguro)
+
+cliente = browser
+servidor = google
+
+// o que é uma API?
+um servidor que nos fornece informações em cima do protocologo http
+
+// como funcionam as requisisões?
+
+Requisição http
+
+URL: https://pokeapi.co/api/v2/pokemon
+    ${IP}/${path} = caminho de idenficação de recurso
+    
+    IP: https://pokeapi.co (em DNS ou dominio)
+        https://127.0.0.1:3000
+
+    PATH: /api/v2/pokemon
+
+// o metodo diz o que vamos fazer sobre o recurso
+
+REQUEST METHOD:
+    GET (buscar recurso)
+    POST (inserir novo)
+    PUT ( atualizar)
+    DELETE(deletar)
+
+CRUD
+
+AREA DE TRANSFERENCIA DE DADOS
+    1 - PATH
+    2 - CARRY STRING (CHAVE: VALOR) 
+        https://pokeapi.co/api/v2/pokemon?tyoe=glass&name=1
+        // tudo dps do ? chave valor
+
+// HEADERS
+
+request HEADERS
+response HEADERS
+    configuração da API
+
+// BODY E STATUS CODE
+
+- faz sentido a partir do metodo POST
+
+- Request Headers 
+    content-type: application/json
+
+- Request Body
+body {
+    "name": "Teste
+}
+
+ira retornar... 
+
+- STATUS CODE
+    200 - 299 = sucesso
+    300...(pesquisar)
+
+- response hearders
+
+- response body
+
+
+
